@@ -6,6 +6,8 @@ A Notespace extension for rendering Sicmutils math nicely.
 
 Add this dependency and require `notespace-sicmutils.setup` at your namespaces to be rendered nicely at Notespace.
 
+See [notespace-sicmutils-example](https://github.com/scicloj/notespace-sicmutils-example).
+
 ## License
 
 Copyright © 2021 Scicloj
