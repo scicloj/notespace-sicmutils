@@ -15,4 +15,12 @@
                            simplify
                            ->TeX)])}))
 
-
+(extend-protocol notespace.behavior/Behaving
+  sicmutils.structure.Structure
+  (->behavior [_]
+    {:render-src?   true
+     :value->hiccup (fn [v]
+                      [:p/math
+                       (-> v
+                           simplify
+                           ->TeX)])}))
