@@ -1,4 +1,4 @@
-(defproject notespace-sicmutils "0.16.2"
+(defproject notespace-sicmutils "0.17.0"
   :description "A Notespace extension for rendering Sicmutils math nicely."
   :url "github.com/scicloj/notespace-sicmutils"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
